@@ -116,3 +116,4 @@ def payment_successful(request):
     basket = Basket(request)
     basket.clear()
     return render(request, "checkout/payment_successful.html", {})
+
